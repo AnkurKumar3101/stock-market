@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: '/api',
+    baseURL: 'https://profound-fascination-production-0fb5.up.railway.app/api',
     headers: {
         'Content-Type': 'application/json',
     },
